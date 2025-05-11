@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WELCOME CRAWLER</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Impact, sans-serif;
+      color: #fdfdfd;
+      background: url('background.png') center center / cover no-repeat fixed;
+      text-align: center;
+      padding: 5vh 2vw;
+      text-shadow: 2px 2px 0 #000;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      font-size: 4rem;
+      margin-bottom: 2rem;
+      color: #ffef00;
+    }
+
+    .input-box {
+      margin-top: 3rem;
+    }
+
+    textarea {
+      width: 80vw;
+      max-width: 600px;
+      height: 150px;
+      font-family: monospace;
+      font-size: 1rem;
+      padding: 1rem;
+      border: 4px solid #ff00ff;
+      border-radius: 10px;
+      box-shadow: 0 0 20px #ff00ff;
+      background-color: rgba(0, 0, 0, 0.8);
+      color: #ffffff;
+      text-transform: none;
+    }
+
+    .input-label {
+      font-size: 1.5rem;
+      color: #ff00ff;
+      margin-bottom: 1rem;
+      display: block;
+    }
+
+    .submit-button {
+      margin-top: 1.5rem;
+      padding: 0.75rem 2rem;
+      font-size: 1.2rem;
+      border: none;
+      border-radius: 8px;
+      background-color: #ff00ff;
+      color: #000;
+      box-shadow: 0 0 15px #ff00ff;
+      cursor: pointer;
+      text-transform: uppercase;
+      text-decoration: none;
+      display: inline-block;
+      font-family: Impact, sans-serif;
+      letter-spacing: 1px;
+    }
+
+    .submit-button:hover {
+      background-color: #ff66ff;
+      box-shadow: 0 0 25px #ff66ff;
+    }
+  </style>
+</head>
+<body>
+  <h1>CRAWLER ACHIEVEMENT GENERATOR</h1>
+
+  <div class="input-box">
+    <label class="input-label" for="achievement-input">Oh wonderful, you're back. Again. Please describe your little triumph. Preferably something useful. Or interesting. Or, you know... toe-adjacent. Just saying.</label>
+    <textarea id="achievement-input" placeholder="e.g., disarmed a trap barefoot while muttering something about toe balance"></textarea>
+    <br />
+    <a class="submit-button" href="new_achievement.html">GENERATE ACHIEVEMENT</a>
+  </div>
+</body>
+</html>
